@@ -5,3 +5,5 @@ string = "abcdefghijklmnopqrstuvwxyz"
 for i, element in enumerate(string):
     print(str(i) + " " + element)
 
+
+
