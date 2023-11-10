@@ -5,9 +5,9 @@ dict["cold"] = 0
 dict["med"] = 50
 dict["apple"] = 75
 
-for element in dict:
-    if dict[element] > 0:
-        print(element)
+for key, value in dict.items():
+    if value > 0:
+        print(f"{key}: {value}")
 
 for index, element in enumerate(dict):
-    print(str(index) + " " + element)
+    print(f"{index} {element}")
